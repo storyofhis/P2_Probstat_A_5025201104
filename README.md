@@ -60,3 +60,57 @@ t.test(before, after, mu = 0, alternative = "two.sided", var.equal = TRUE)
 <img width="644" alt="Screen Shot 2022-05-29 at 20 36 19" src="https://user-images.githubusercontent.com/72302421/170871690-90a5cc49-f382-4eac-b29d-2bd45704b18d.png">
 
 
+### Nomor 2
+Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. (Kerjakan menggunakan library seperti referensi pada modul).
+
+#### 2a
+Setuju, karena uji z menolak H0, sehingga mobil yang dikemudikan rata-rata per tahun lebih dari 20000 kilometer
+#### 2b
+Output dari z test adalah hipotesis alternatif
+alternative hypothesis adalah nilai benar mean yaitu lebih dari 20000 atau H1 diterima sehingga klaim benar.
+#### 2c
+P-value dari uji tes z adalah 2.2e-16 atau mendekati 0, dari hasil p-value tersebut hipotesis awal dapat ditolak dan H1 diterima.
+
+
+### Nomor 3
+
+#### 3a
+H0 : mu = mu0,mu tidak sama dengan mu0
+#### 3b
+```
+tsum.test(mean.x=3.64, s.x = 1.67, n.x = 19, 
+          mean.y =2.79 , s.y = 1.32, n.y = 27, 
+          alternative = "greater", var.equal = TRUE)
+```
+#### 3c
+```
+install.packages("mosaic")
+library(mosaic)
+plotDist(dist='t', df=2, col="blue")
+```
+<img width="648" alt="Screen Shot 2022-05-29 at 21 22 13" src="https://user-images.githubusercontent.com/72302421/170874050-5b7b2d29-2788-4126-8901-061db2b5b2a7.png">
+
+#### 3d
+```
+# Nilai Kritikal
+qchisq(p = 0.05, df = 2, lower.tail=FALSE)
+```
+<img width="128" alt="Screen Shot 2022-05-29 at 21 27 08" src="https://user-images.githubusercontent.com/72302421/170874318-1a1a11d4-8b41-412e-a6d0-03034a3da617.png">
+
+#### 3e
+Keputusan
+
+Teori keputusan adalah teori formal pengambilan keputusan di bawah ketidakpastian. 
+Aksinya adalah : `({a}_{a∈A})`
+Kemungkinan konsekuensi : `({c}_{c∈C})` (tergantung pada keadaan dan tindakan)
+Maka keputusan dapat dibuat dengan `t.test`
+
+#### 3f
+Kesimpulan
+Kesimpulan yang didapatkan yaitu perbedaan rata-rata yang terjadi tidak ada jika dilihat dari uji statistik dan akan ada tetapi tidak signifikan jika dipengaruhi nilai kritikal.
+
+### Nomor 4
+
+### Nomor 5
+
+
