@@ -12,3 +12,5 @@ data
 
 standarDeviasi_before <- sd(before)
 standarDeviasi_after <- sd(after)
+
+
