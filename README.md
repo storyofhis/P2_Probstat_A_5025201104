@@ -60,3 +60,23 @@ t.test(before, after, mu = 0, alternative = "two.sided", var.equal = TRUE)
 <img width="644" alt="Screen Shot 2022-05-29 at 20 36 19" src="https://user-images.githubusercontent.com/72302421/170871690-90a5cc49-f382-4eac-b29d-2bd45704b18d.png">
 
 
+### Nomor 2
+Diketahui bahwa mobil dikemudikan rata-rata lebih dari 20.000 kilometer per tahun. Untuk menguji klaim ini, 100 pemilik mobil yang dipilih secara acak diminta untuk mencatat jarak yang mereka tempuh. Jika sampel acak menunjukkan rata-rata 23.500 kilometer dan standar deviasi 3900 kilometer. (Kerjakan menggunakan library seperti referensi pada modul).
+
+#### 2a
+Setuju, karena uji z menolak H0, sehingga mobil yang dikemudikan rata-rata per tahun lebih dari 20000 kilometer
+#### 2b
+Output dari z test adalah hipotesis alternatif
+alternative hypothesis adalah nilai benar mean yaitu lebih dari 20000 atau H1 diterima sehingga klaim benar.
+#### 2c
+P-value dari uji tes z adalah 2.2e-16 atau mendekati 0, dari hasil p-value tersebut hipotesis awal dapat ditolak dan H1 diterima.
+
+
+### Nomor 3
+
+
+### Nomor 4
+
+### Nomor 5
+
+
