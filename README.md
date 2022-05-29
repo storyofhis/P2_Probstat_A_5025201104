@@ -43,5 +43,20 @@ standarDeviasi_after <- sd(after)
 ```
 <img width="334" alt="Screen Shot 2022-05-29 at 20 29 51" src="https://user-images.githubusercontent.com/72302421/170871382-a4c73140-c026-4984-96ed-4f72b5de9aa3.png">
 
+#### 1b
+```
+# Mencari nilai t(p-value) dengan t-test
+t.test(before, after, alternative = "greater", var.equal = FALSE)
+```
+<img width="579" alt="Screen Shot 2022-05-29 at 20 34 10" src="https://user-images.githubusercontent.com/72302421/170871574-abf2496a-daa2-4035-8f5a-ae8a4b3966d2.png">
+
+
+#### 1c
+```
+# 1c
+var.test(before, after)
+t.test(before, after, mu = 0, alternative = "two.sided", var.equal = TRUE)
+```
+<img width="644" alt="Screen Shot 2022-05-29 at 20 36 19" src="https://user-images.githubusercontent.com/72302421/170871690-90a5cc49-f382-4eac-b29d-2bd45704b18d.png">
 
 
